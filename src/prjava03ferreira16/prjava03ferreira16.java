@@ -18,13 +18,15 @@ public class prjava03ferreira16 extends Frame
       // one superclass, but can implement multiple interfaces. 
  
    private TextField tfCount; 
-   private int count = 0;  // Counter's value 
+   private int count = 0; 
+   private int vari = 13;// Counter's value 
  
    /** Constructor to setup the GUI */ 
    public prjava03ferreira16 () { 
       setLayout(new FlowLayout()); // "this" Frame sets to FlowLayout 
  
-      add(new Label("Counter"));   // "this" Frame adds an anonymous Label 
+      add(new Label("Counter")); 
+      add(new Label("dddd"));// "this" Frame adds an anonymous Label 
  
       tfCount = new TextField("0", 10); // allocate TextField 
       tfCount.setEditable(false);       // read-only 
