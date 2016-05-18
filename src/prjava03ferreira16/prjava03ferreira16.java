@@ -29,7 +29,7 @@ public class prjava03ferreira16 extends Frame
 
       add(new Label("test"));// "this" Frame adds an anonymous Label 
 
-      add(new Label("dddd"));// "this" Frame adds an anonymous Label 
+      // "this" Frame adds an anonymous Label 
 
  
       tfCount = new TextField("0", 10); // allocate TextField 
