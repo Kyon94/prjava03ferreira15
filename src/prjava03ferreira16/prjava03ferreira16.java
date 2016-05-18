@@ -7,6 +7,7 @@ import java.awt.event.*;
 import java.text.*;
 import java.io.*;// using AWT events and listener interfaces 
 import java.applet.*;
+import java.lang.*;
 //sssssssssssssss
  
 // An AWT GUI program inherits the top-level container java.awt.Frame 
